@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - Solution Human Resources Problem</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon//favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">    
+</head>
+<body>
+
+    <header>
+        <nav class="sm:py-7 pb-5 pt-3 absolute w-full">
+            <div class="container mx-auto px-4">
+                <div class="flex lg:mt-0 mt-3">
+                    <div class="logo flex-none ">
+                        <a href="index.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
+                    </div>
+                    <div class="nav-menu flex-1 justify-end flex items-center">
+                        <div class="toggle-hamburger">
+                            <div class="hamburger"></div>
+                        </div>
+                        <div class="flex nav-responsive">
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="index.html" class="go-to-link text-white">Home</a>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <span class=" text-white">Insight +</span>
+                                <div class="nav-menu-item-dropdown absolute rounded-lg length">
+                                    <a href="insight.html" class="go-to-link py-3">Artikel Manajemen</a>
+                                    <a href="insight.html" class="go-to-link">Tanya Konsultan</a>
+                                </div>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <span class=" text-white">Info +</span>
+                                <div class="nav-menu-item-dropdown absolute">
+                                    <a href="info.html" class="go-to-link">E-Compro</a>
+                                    <a href="info.html" class="go-to-link">E-Catalog</a>
+                                    <a href="info.html" class="go-to-link">Download</a>
+                                    <a href="info.html" class="go-to-link">FAQ</a>
+                                    <a href="info.html" class="go-to-link">Privacy Policy</a>
+                                </div>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="about.html" class="go-to-link text-white">About</a>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="schedule.html" class="go-to-link text-white">Schedule</a>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="all-course.html" class="go-to-link different bg-blue-700 hover:bg-blue-800">
+                                    <div class="flex align-items">
+                                        <i class="material-icons mr-2">import_contacts</i>
+                                        <span>All Courses</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nav-responsive-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="banner" class="banner-2nd" style="background-image: url('https://ucarecdn.com/8f400ae8-7b68-411e-8492-6a73a833b0af/bannerschedule.webp');">
+            <div class="container mx-auto h-full px-4">
+                <div class="h-full">
+                    <div class="flex justify-center items-center flex-col h-full">
+                        <h1 class="xl:m-2 lg:m-2 lg:mx-0 mx-auto w-fit xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-bold mb-3 text-white fbtt fade-up">Schedule</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="sm:pt-20 pt-10 fbtt fade-up">
+            <div class="container px-4 mx-auto">
+                <div class="flex bg-blue-700 rounded-xl overflow-hidden">
+                    <div class="section-text flex-1">
+                        <div class="sm:px-10 sm:py-12 p-8">
+                            <p class="text-base font-normal text-gray-700 leading-7 text-slate-200 fbtt fade-up">
+                                Pro HRD bersedia menemani Anda seraya bersantai di rumah. Sebab, training Better Human kini hadir dalam bentuk
+                                <strong class="text-3xl py-2 block text-white">ONLINE!</strong>
+                                Training ini tak kalah interaktifnya dengan training offline yang selalu dinanti. Anda bisa langsung berinteraksi dengan Bapak Ary Ginanjar dari rumah atau di manapun lokasi Anda berada.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex-1 bg-cover bg-no-repeat bg-center md:block hidden" style="background-image: url('./assets/images/section-schedule.webp');">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="list" class="py-20">
+            <div class="container px-4 mx-auto">
+                <div class="wrapper-item-list pb-20">
+                    <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 mb-5 fbtt fade-up">School of Character</h2>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border justify-between sm:flex block">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">17 - 19 Februari 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-green-700 bg-green-100 px-4 mr-2 py-1">LIVE</div>
+                                </div>
+                                <span class="font-semibold">ESQ Executive</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Online & Menara 165 (offline)</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">6-7 Januari 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">ESQ Next Chapter</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Offline (Menara 165)</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">5 - 6 November 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-red-700 bg-red-100 px-4 mr-2 py-1">SOLD</div>
+                                </div>
+                                <span class="font-semibold">ESQ Final Chapter</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Offline (Menara 165)</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">06-07 Oktober 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">ESQ Transformational Leadership</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Online (Zoom)</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">31 Desember 2023 – 01 Januari 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">ESQ Kids</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Offline (Menara 165)</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">31 Desember 2023 – 01 Januari 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">ESQ Teens</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Offline (Menara 165)</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-item-list pb-20">
+                    <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 mb-5 fbtt fade-up">Success Institute</h2>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">03-04 September 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-red-700 bg-red-100 px-4 mr-2 py-1">SOLD</div>
+                                </div>
+                                <span class="font-semibold">ESQ Quantum Excellence</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Online (Zoom)</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">3-4 Desember 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">ESQ The Amazing You</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">OFFLINE</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-item-list pb-20">
+                    <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 mb-5 fbtt fade-up">School of Communication</h2>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">29-30 Oktober 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">ESQ Public Speaking Mastery</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Online (Zoom)</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">18-19 Oktober 2023</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">ESQ Professional Master of Ceremony</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Online (Zoom)</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper-item-list pb-20">
+                    <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 mb-5 fbtt fade-up">Coaching Academy</h2>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">19-21 & 26-28 Desember 2022</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">ESQ 3.0 Coaching Certification Camp</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Offline & Online</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">26 - 27 November 2022</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">Talent Based Coaching</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Offline & Online</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-list fbtt fade-up hover:bg-gray-100 duration-300 py-3 px-5 mb-4 rounded-xl border-gray-200 border sm:flex block justify-between">
+                        <div class="xl:flex lg:flex md:block sm:block block flex-1 justify-between">
+                            <div class="flex-initial xl:w-52 lg:w-52 w-full xl:py-3 lg:py-3 md:pt-3 sm:pt-3 pt-3 pr-5 text-gray-700">Every Day</div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700 lg:flex block">
+                                <div class="badge w-fit lg:pb-0 pb-1">
+                                    <div class="text-xs rounded-md font-semibold text-blue-700 bg-blue-100 px-4 mr-2 py-1">OPEN</div>
+                                </div>
+                                <span class="font-semibold">Strength Finder Assessment</span>
+                            </div>
+                            <div class="flex-1 xl:py-3 lg:py-3 md:pt-2 sm:pt-2 pt-2 xl:px-5 lg:px-5 md:pr-5 sm:pr-5 pr-5 text-gray-700">Online</div>
+                        </div>
+                        <div class="flex lg:mt-0 mt-3">
+                            <div class="flex items-center mr-2">
+                                <a href="" class="bg-blue-700 text-white text-base px-4 py-2 rounded-lg">Register</a>
+                            </div>
+                            <div class="flex items-center ml-2">
+                                <a href="" class="bg-blue-100 text-black text-base px-4 py-2 rounded-lg">Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pt-20 bg-blue-800 pb-10 lg:mt-0 mt-20">
+        <div class="container px-4 mx-auto">
+            <div class="gap-10 md:flex block pb-16">
+                <div class="flex-1 md:mb-0 mb-6">
+                    <div class="text-slate-100 font-bold mb-5 text-xl  fbtt fade-up">About us</div>
+                    <p class="text-slate-300 font-normal text-sm leading-7 mt-4 fbtt fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero veniam perspiciatis nam aut beatae rem voluptate dignissimos consequuntur ullam quas at minus, enim eligendi distinctio. Vel adipisci dolore tempora!</p>
+                </div>
+                <div class="flex-1 md:mb-0 mb-6">
+                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Navigation</div>
+                    <div class="menu-list flex-row flex gap-14">
+                        <div class="flex flex-col gap-2">
+                            <a href="index.html" class="text-slate-200 fbtt fade-up">Home</a>
+                            <a href="insight.html" class="text-slate-200 fbtt fade-up">Insight</a>
+                            <a href="info.html" class="text-slate-200 fbtt fade-up">Info</a>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <a href="schedule.html" class="text-slate-200 fbtt fade-up">Schedule</a>
+                            <a href="all-course.html" class="text-slate-200 fbtt fade-up">All Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 md:mb-0 mb-6">
+                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Newsletter</div>
+                    <div class="mt-2 fbtt fade-up">
+                        <input type="text" class="w-full h-12 rounded-lg bg-white px-5 py-3" placeholder="type your email here">
+                        <button class="w-full px-8 py-3 bg-white font-semibold text-blue-800 rounded-xl mt-4 fbtt fade-up">Get Newsletter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="my-10 bg-white" style="opacity: .2; height: 1px;"></div>
+            <div class="copyright text-white opacity-50">
+                <p class="text-center font-normal">@Copyright ProHRD All Right Reserved 2022</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js" integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

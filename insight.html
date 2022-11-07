@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Course - Solution Human Resources Problem</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon//favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <header>
+        <nav class="sm:py-7 pb-5 pt-3 absolute w-full">
+            <div class="container mx-auto px-4">
+                <div class="flex lg:mt-0 mt-3">
+                    <div class="logo flex-none ">
+                        <a href="index.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
+                    </div>
+                    <div class="nav-menu flex-1 justify-end flex items-center">
+                        <div class="toggle-hamburger">
+                            <div class="hamburger"></div>
+                        </div>
+                        <div class="flex nav-responsive">
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="index.html" class="go-to-link text-white">Home</a>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <span class="text-white">Insight +</span>
+                                <div class="nav-menu-item-dropdown absolute rounded-lg length">
+                                    <a href="insight.html" class="go-to-link py-3">Artikel Manajemen</a>
+                                    <a href="insight.html" class="go-to-link">Tanya Konsultan</a>
+                                </div>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <span class=" text-white">Info +</span>
+                                <div class="nav-menu-item-dropdown absolute">
+                                    <a href="info.html" class="go-to-link">E-Compro</a>
+                                    <a href="info.html" class="go-to-link">E-Catalog</a>
+                                    <a href="info.html" class="go-to-link">Download</a>
+                                    <a href="info.html" class="go-to-link">FAQ</a>
+                                    <a href="info.html" class="go-to-link">Privacy Policy</a>
+                                </div>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="about.html" class="go-to-link text-white">About</a>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="schedule.html" class="go-to-link text-white">Schedule</a>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="all-course.html" class="go-to-link different bg-blue-700 hover:bg-blue-800">
+                                    <div class="flex align-items">
+                                        <i class="material-icons mr-2">import_contacts</i>
+                                        <span>All Courses</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nav-responsive-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="banner" class="banner-2nd" style="background-image: url('./assets/images/insight-banner.webp');">
+            <div class="container mx-auto h-full px-4">
+                <div class="h-full">
+                    <div class="flex justify-center items-strech flex-col h-full w-full">
+                        <h1 class="xl:m-2 lg:m-2 w-fit xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl text-3xl font-bold mb-3 text-white">Punya pertanyaan?, <br>Konsultasikan dengan konsultan profesional kami</h1>
+                        <a href="" class="bg-blue-700 hover:bg-blue-800 text-base text-white w-fit mt-4 rounded-lg px-8 py-4">Tanya Konsultan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="sm:py-20 py-0">
+            <div class="container mx-auto px-4">
+                <div class="wrapper">
+                    <div class="lg:flex block gap-6 mt-16">
+                        <div class="flex-1 text-gray-400">
+                            <div class="flex justify-between flex-1 mb-2">
+                                <div class="mr-2 fbtt fade-up">
+                                    <p>Sort By <strong class="text-gray-700">Trending</strong>, <strong class="text-gray-700">6 artikel</strong> dari 20 artikel</p>
+                                </div>
+                                <div class="ml-2 md:block hidden fbtt fade-up">
+                                    <i class="material-icons ml-3 cursor-pointer text-gray-400 hover:text-gray-700">
+                                        grid_view
+                                    </i>
+                                    <i class="material-icons ml-3 cursor-pointer text-gray-700 hover:text-gray-700">
+                                        view_list
+                                    </i>
+                                </div>
+                            </div>
+                            <a href="#" class="fbtt fade-up overflow-hidden border block md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="sm:flex block">
+                                    <img src="https://ucarecdn.com/e40b2926-1752-48c2-8d03-3d867995bf72/artikel1.jpg" class="sm:w-52 w-full sm:h-auto h-52 object-cover" alt="">
+                                    <div class="flex-1 p-6">
+                                        <div class="lg:flex block justify-between items-center">
+                                            <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Menjalani Rutinitas sebagai Langkah Menjaga Kesehatan Mental</h3>
+                                        </div>
+                                        <div class="flex pt-3 flex-wrap">
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">person</i>
+                                                <span class="ml-2 text-sm text-gray-600">Nisrina Putri Utami</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-blue-700">calendar_today</i>
+                                                <span class="ml-2 text-sm text-gray-600">October 20, 2022</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">folder</i>
+                                                <span class="ml-2 text-sm text-gray-600">Kesehatan Mental</span>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm  fbtt fade-up">
+                                                Bulan Oktober merupakan bulan kesehatan mental sedunia, tepatnya 10 Oktober yang lalu. Seiring itu, saat ini isu kesehatan mental makin ramai dibahas.  Tidak hanya melalui media sosial, isu kesehatan mental juga mulai dibahas dalam obrolan ringan sehari-hari. Sebenarnya apa sih kesehatan…    
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="fbtt fade-up overflow-hidden border block md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="sm:flex block">
+                                    <img src="https://ucarecdn.com/63bc00f9-247d-45e2-8227-6c822976665f/artikel2.jpg" class="sm:w-52 w-full sm:h-auto h-52 object-cover" alt="">
+                                    <div class="flex-1 p-6">
+                                        <div class="lg:flex block justify-between items-center">
+                                            <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Laughter Is An Instant Vacation In The Workplace</h3>
+                                        </div>
+                                        <div class="flex pt-3 flex-wrap">
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">person</i>
+                                                <span class="ml-2 text-sm text-gray-600">Pratidina Kartika Putri</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-blue-700">calendar_today</i>
+                                                <span class="ml-2 text-sm text-gray-600">September 21, 2022</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">folder</i>
+                                                <span class="ml-2 text-sm text-gray-600">Artikel Manajemen</span>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm  fbtt fade-up">
+                                                Ramai tren “healing” di masyarakat, terutama di kalangan muda-mudi kini. Istilah kekinian ini kerap digunakan warganet untuk mengungkapkan sesuatu yang menyenangkan melalui unggahan media sosial. Saat ini, konsep healing dimaknai dengan liburan atau staycation. Padahal healing adalah proses penyembuhan diri secara psikologis. Liburan bisa jadi…    
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="fbtt fade-up overflow-hidden border block md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="sm:flex block">
+                                    <img src="https://ucarecdn.com/67ff7e62-842c-4ad2-a2a8-554a94f49316/artikel3.jpg" class="sm:w-52 w-full sm:h-auto h-52 object-cover" alt="">
+                                    <div class="flex-1 p-6">
+                                        <div class="lg:flex block justify-between items-center">
+                                            <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Belajar Leadership dari Ilmu Parenting</h3>
+                                        </div>
+                                        <div class="flex pt-3 flex-wrap">
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">person</i>
+                                                <span class="ml-2 text-sm text-gray-600">Nina Ivana Satmaka</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-blue-700">calendar_today</i>
+                                                <span class="ml-2 text-sm text-gray-600">September 13, 2022</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">folder</i>
+                                                <span class="ml-2 text-sm text-gray-600">Leadership</span>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm  fbtt fade-up">
+                                                “The two most important things in any company do not appear in its balance sheet: its reputation and its people.” Sebagai orang tua, tentu kita mengharapkan yang terbaik bagi anak. Kita ingin anak bisa menjadi pribadi yang baik, cerdas, sopan…    
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="fbtt fade-up overflow-hidden border block md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="sm:flex block">
+                                    <img src="https://ucarecdn.com/ffd8ef93-051c-4aad-8bb4-3b717a249f2b/artikel4.jpg" class="sm:w-52 w-full sm:h-auto h-52 object-cover" alt="">
+                                    <div class="flex-1 p-6">
+                                        <div class="lg:flex block justify-between items-center">
+                                            <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Membangun Integritas Karyawan, Mulai Dari Mana?</h3>
+                                        </div>
+                                        <div class="flex pt-3 flex-wrap">
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">person</i>
+                                                <span class="ml-2 text-sm text-gray-600">Ricky Virona Martono</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-blue-700">calendar_today</i>
+                                                <span class="ml-2 text-sm text-gray-600">September 1, 2022</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">folder</i>
+                                                <span class="ml-2 text-sm text-gray-600">Integritas</span>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm  fbtt fade-up">
+                                                Jika ada rumah seorang warga kemalingan seekor ayam, bukan berarti seluruh rumah warga dalam satu RW harus dijaga oleh pihak keamanan. Di Indonesia, pegawai Ditjen Bea Cukai dan Pimpinan KPK (Komisi Pemberantasan Korupsi) menandatangani Pakta Integritas agar menjalankan tugas sebaik-baiknya…    
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="fbtt fade-up overflow-hidden border block md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="sm:flex block">
+                                    <img src="https://ucarecdn.com/43b09dd2-5a01-4136-9101-444faf3a60df/artikel5.jpg" class="sm:w-52 w-full sm:h-auto h-52 object-cover" alt="">
+                                    <div class="flex-1 p-6">
+                                        <div class="lg:flex block justify-between items-center">
+                                            <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Kunci Kebahagiaan di Sebuah Pekerjaan</h3>
+                                        </div>
+                                        <div class="flex pt-3 flex-wrap">
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">person</i>
+                                                <span class="ml-2 text-sm text-gray-600">Rahmaisyah Dwi Riztina</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-blue-700">calendar_today</i>
+                                                <span class="ml-2 text-sm text-gray-600">August 16, 2022</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">folder</i>
+                                                <span class="ml-2 text-sm text-gray-600">Kebahagiaan Bekerja</span>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm  fbtt fade-up">
+                                                Baru-baru ini kita sedang mengalami gelombang tren karyawan mengundurkan diri atau meletakkan jabatan. Apa yang membuat ini terjadi? Lantas, sebenarnya apa yang membuat kita bahagia dalam sebuah pekerjaan? Menurut survei terbaru Randstad, lebih dari setengah responden generasi milenial dan Gen…    
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="fbtt fade-up overflow-hidden border block md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="sm:flex block">
+                                    <img src="https://ucarecdn.com/d9d80992-5db4-442d-8214-094dd4b24391/artikel6.jpg" class="sm:w-52 w-full sm:h-auto h-52 object-cover" alt="">
+                                    <div class="flex-1 p-6">
+                                        <div class="lg:flex block justify-between items-center">
+                                            <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Kepemimpinan dan Kepercayaan pada Pemimpin dalam Membangun Perilaku Bawahan</h3>
+                                        </div>
+                                        <div class="flex pt-3 flex-wrap">
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">person</i>
+                                                <span class="ml-2 text-sm text-gray-600">Diyah Dumasari Siregar</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-blue-700">calendar_today</i>
+                                                <span class="ml-2 text-sm text-gray-600">August 2, 2022</span>
+                                            </div>
+                                            <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                                <i class="material-icons text-sm text-gray-600">folder</i>
+                                                <span class="ml-2 text-sm text-gray-600">Kepemimpinan</span>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm  fbtt fade-up">
+                                                Bulan Oktober merupakan bulan kesehatan mental sedunia, tepatnya 10 Oktober yang lalu. Seiring itu, saat ini isu kesehatan mental makin ramai dibahas.  Tidak hanya melalui media sosial, isu kesehatan mental juga mulai dibahas dalam obrolan ringan sehari-hari. Sebenarnya apa sih kesehatan…    
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <div class="py-10 flex justify-center fbtt fade-up">
+                                <div class="pagination flex gap-2">
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center bg-blue-700 hover:bg-blue-800 text-white">
+                                        <i class="material-icons text-white">
+                                            chevron_left
+                                        </i>
+                                    </div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center bg-blue-700 hover:bg-blue-800 text-white">1</div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center hover:bg-gray-200 border">2</div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center hover:bg-gray-200 border">3</div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center hover:bg-gray-200 border">4</div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center bg-blue-700 hover:bg-blue-800 text-white">
+                                        <i class="material-icons text-white">
+                                            chevron_right
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-96 w-full lg:mt-0 mt-10 overflow-hidden">
+                            <div class="border w-100 p-4 rounded-2xl mb-5 fbtt fade-up">
+                                <h4 class="mb-2 text-lg text-gray-700 fbtt fade-up">Pencarian</h4>
+                                <input type="text" class="py-3 px-4 fbtt fade-up rounded-lg w-full border outline-0" placeholder="Cari disini...">
+                                <button class="bg-blue-700 hover:bg-blue-800 fbtt fade-up text-white font-semibold text-center w-full py-3 mt-2 rounded-lg">Cari</button>
+                            </div>
+                            <div class="border w-100 p-4 rounded-2xl mb-5 fbtt fade-up">
+                                <h4 class="mb-2 text-lg text-gray-700 fbtt fade-up">Categories</h4>
+                                <div class="mt-3">
+                                    <a href="#" class="font-normal text-base text-gray-500 block w-fit my-2 fbtt fade-up">Seminar</a>
+                                    <a href="#" class="font-normal text-base text-gray-500 block w-fit my-2 fbtt fade-up">Human Error</a>
+                                    <a href="#" class="font-normal text-base text-gray-500 block w-fit my-2 fbtt fade-up">Konsultasi</a>
+                                    <a href="#" class="font-normal text-base text-gray-500 block w-fit my-2 fbtt fade-up">Kecelakaan Bekerja</a>
+                                    <a href="#" class="font-normal text-base text-gray-500 block w-fit my-2 fbtt fade-up">BPJS</a>
+                                    <a href="#" class="font-normal text-base text-gray-500 block w-fit my-2 fbtt fade-up">Lemburan</a>
+                                </div>
+                            </div>
+                            <div class="border w-100 p-4 rounded-2xl mb-5 fbtt fade-up">
+                                <h4 class="mb-2 text-lg text-gray-700 fbtt fade-up">Popular Tags</h4>
+                                <div class="mt-3 flex flex-wrap gap-2">
+                                    <a href="#" class="font-normal text-base bg-slate-100 px-3 py-1 rounded-lg hover:bg-blue-700 hover:text-white duration-100 fbtt fade-up">Seminar</a>
+                                    <a href="#" class="font-normal text-base bg-slate-100 px-3 py-1 rounded-lg hover:bg-blue-700 hover:text-white duration-100 fbtt fade-up">Human Error</a>
+                                    <a href="#" class="font-normal text-base bg-slate-100 px-3 py-1 rounded-lg hover:bg-blue-700 hover:text-white duration-100 fbtt fade-up">Konsultasi</a>
+                                    <a href="#" class="font-normal text-base bg-slate-100 px-3 py-1 rounded-lg hover:bg-blue-700 hover:text-white duration-100 fbtt fade-up">Kecelakaan Bekerja</a>
+                                    <a href="#" class="font-normal text-base bg-slate-100 px-3 py-1 rounded-lg hover:bg-blue-700 hover:text-white duration-100 fbtt fade-up">BPJS</a>
+                                    <a href="#" class="font-normal text-base bg-slate-100 px-3 py-1 rounded-lg hover:bg-blue-700 hover:text-white duration-100 fbtt fade-up">Lemburan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pt-20 bg-blue-800 pb-10 lg:mt-0 mt-20">
+        <div class="container px-4 mx-auto">
+            <div class="gap-10 md:flex block pb-16">
+                <div class="flex-1 md:mb-0 mb-6">
+                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">About us</div>
+                    <p class="text-slate-300 font-normal text-sm leading-7 mt-4 fbtt fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero veniam perspiciatis nam aut beatae rem voluptate dignissimos consequuntur ullam quas at minus, enim eligendi distinctio. Vel adipisci dolore tempora!</p>
+                </div>
+                <div class="flex-1 md:mb-0 mb-6">
+                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Navigation</div>
+                    <div class="menu-list flex-row flex gap-14">
+                        <div class="flex flex-col gap-2">
+                            <a href="index.html" class="text-slate-200 fbtt fade-up">Home</a>
+                            <a href="insight.html" class="text-slate-200 fbtt fade-up">Insight</a>
+                            <a href="info.html" class="text-slate-200 fbtt fade-up">Info</a>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <a href="schedule.html" class="text-slate-200 fbtt fade-up">Schedule</a>
+                            <a href="all-course.html" class="text-slate-200 fbtt fade-up">All Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 md:mb-0 mb-6">
+                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Newsletter</div>
+                    <div class="mt-2">
+                        <input type="text" class="w-full h-12 rounded-lg bg-white px-5 py-3 fbtt fade-up" placeholder="type your email here">
+                        <button class="w-full px-8 py-3 bg-white font-semibold text-blue-800 rounded-xl mt-4 fbtt fade-up">Get Newsletter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="my-10 bg-white" style="opacity: .2; height: 1px;"></div>
+            <div class="copyright text-white opacity-50">
+                <p class="text-center font-normal">@Copyright ProHRD All Right Reserved 2022</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js" integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Course - Solution Human Resources Problem</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon//favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">    
+</head>
+<body>
+
+    <header>
+        <nav class="sm:py-7 pb-5 pt-3 border-b">
+            <div class="container mx-auto px-4">
+                <div class="flex lg:mt-0 mt-3">
+                    <div class="logo flex-none ">
+                        <a href="index.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
+                    </div>
+                    <div class="nav-menu flex-1 justify-end flex items-center">
+                        <div class="toggle-hamburger">
+                            <div class="hamburger bg-black"></div>
+                        </div>
+                        <div class="flex nav-responsive">
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="index.html" class="go-to-link">Home</a>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <span>Insight +</span>
+                                <div class="nav-menu-item-dropdown absolute rounded-lg length">
+                                    <a href="insight.html" class="go-to-link py-3">Artikel Manajemen</a>
+                                    <a href="insight.html" class="go-to-link">Tanya Konsultan</a>
+                                </div>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <span>Info +</span>
+                                <div class="nav-menu-item-dropdown absolute">
+                                    <a href="info.html" class="go-to-link">E-Compro</a>
+                                    <a href="info.html" class="go-to-link">E-Catalog</a>
+                                    <a href="info.html" class="go-to-link">Download</a>
+                                    <a href="info.html" class="go-to-link">FAQ</a>
+                                    <a href="info.html" class="go-to-link">Privacy Policy</a>
+                                </div>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="about.html" class="go-to-link">About</a>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="schedule.html" class="go-to-link">Schedule</a>
+                            </div>
+                            <div class="nav-menu-item relative flex items-center">
+                                <a href="all-course.html" class="go-to-link different bg-blue-700 hover:bg-blue-800">
+                                    <div class="flex align-items">
+                                        <i class="material-icons mr-2">import_contacts</i>
+                                        <span>All Courses</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="nav-responsive-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="py-20">
+            <div class="container mx-auto px-4">
+                <div class="wrapper">
+                    <div class="flex">
+                        <h2 class="text-left xl:text-4xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 fbtt fade-up">Kegiatan Dan Pelatihan</h2>
+                    </div>
+                    <div class="lg:flex block flex-row-reverse gap-6 mt-16">
+                        <div class="flex-1 text-gray-400">
+                            <div class="flex justify-between flex-1 mb-2">
+                                <div class="mr-2 fbtt fade-up">
+                                    <p>Sort By <strong class="text-gray-700">lowest</strong>, <strong class="text-gray-700">5 items</strong> of 20 items</p>
+                                </div>
+                                <div class="ml-2 md:block hidden fbtt fade-up">
+                                    <i class="material-icons ml-3 cursor-pointer text-gray-700">
+                                        grid_view
+                                    </i>
+                                    <i class="material-icons ml-3 cursor-pointer text-gray-400 hover:text-gray-700">
+                                        view_list
+                                    </i>
+                                </div>
+                            </div>
+                            <a href="detail-course.html" class="md:p-8 fbtt fade-up p-4 border block md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="lg:flex block justify-between items-center">
+                                    <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Advance Competitive Marketing Strategy [In-ClassTraining]</h3>
+                                    <div class="badge lg:mt-0 mt-2">
+                                        <div class="rounded-lg bg-blue-700 px-3 py-1 w-fit flex items-center w-32 fbtt fade-up">
+                                            <i class="material-icons text-white text-md mr-1">event</i>
+                                            <span class="text-md font-bold text-white">in 2 Days</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex pt-3 flex-wrap">
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">place</i>
+                                        <span class="ml-2 text-sm text-gray-600">Jakarta Selatan</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600">Executive Development Program</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600">Marketing & Sales</span>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm  fbtt fade-up">
+                                        Perebutan pasar semakin tidak lagi didominasi oleh pemain besar saja, namun juga oleh banyak perusahaan pendatang baru dengan skala kecil sangat intens dalam membangun hubungan pelanggannya. Perusahaan-perusahaan ini meningkat dengan cepat dan perlu diwaspadai. Oleh karenanya, pemilihan strategi pemasaran yang tepat menjadi sangat penting.
+                                    </p>
+                                </div>
+                                <div class="pt-3">
+                                    <div class="flex items-end fbtt fade-up">
+                                        <div class="text-2xl font-bold text-blue-700 mr-1">Rp 6,200,000</div>
+                                        <div class="text-base text-gray-600">/peserta</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="detail-course.html" class="md:p-8 p-4 border block fbtt fade-up md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="lg:flex block justify-between items-center">
+                                    <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Advance Competitive Marketing Strategy [Live Virtual Training]</h3>
+                                    <div class="badge lg:mt-0 mt-2">
+                                        <div class="rounded-lg bg-blue-700 px-3 py-1 w-fit flex items-center w-32 fbtt fade-up">
+                                            <i class="material-icons text-white text-md mr-1">event</i>
+                                            <span class="text-md font-bold text-white">in 4 Days</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex pt-3 flex-wrap">
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">place</i>
+                                        <span class="ml-2 text-sm text-gray-600">Jakarta Selatan</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600">Executive Development Program</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600">Marketing & Sales</span>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm fbtt fade-up ">
+                                        Perebutan pasar semakin tidak lagi didominasi oleh pemain besar saja, namun juga oleh banyak perusahaan pendatang baru dengan skala kecil sangat intens dalam membangun hubungan pelanggannya. Perusahaan-perusahaan ini meningkat dengan cepat dan perlu diwaspadai. Oleh karenanya, pemilihan strategi pemasaran yang tepat menjadi sangat penting.
+                                    </p>
+                                </div>
+                                <div class="pt-3 fbtt fade-up">
+                                    <div class="flex items-end">
+                                        <div class="text-2xl font-bold text-blue-700 mr-1">Rp 6,200,000</div>
+                                        <div class="text-base text-gray-600">/peserta</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="detail-course.html" class=" fbtt fade-up md:p-8 p-4 border block md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="lg:flex block justify-between items-center">
+                                    <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Advanced People Analytics: "Membangun Kekuatan Sumber Daya Manusia Berbasis Data"</h3>
+                                    <div class="badge lg:mt-0 mt-2 fbtt fade-up">
+                                        <div class="rounded-lg bg-blue-700 px-3 py-1 w-fit flex items-center  w-32">
+                                            <i class="material-icons text-white text-md mr-1">event</i>
+                                            <span class="text-md font-bold text-white">in 5 Days</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex pt-3 flex-wrap">
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">place</i>
+                                        <span class="ml-2 text-sm text-gray-600">Jakarta Selatan</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600">Mega Seminar</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600">Marketing & Sales</span>
+                                    </div>
+                                </div>
+                                <div class=" fbtt fade-up">
+                                    <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm ">
+                                        Bagaimana para pemimpin organisasi dapat memanfaatkan “Advance People Analytics” untuk memberi daya pada model bisnis mereka? Dengan Advance People Analytics para pemimpin dapat mengindentifikasi dan mengelola data Recruitment, Talent, Compensation dan Performance Analytics, menganalisa efektifitas dan efisiensi data-data Analytic tersebut. Dan tujuan yang sangat penting adalah para pemimpin bisnis masa depan dapat memahami di mana dan bagaimana menerapkan analisis canggih ini untuk kekuatan model bisnis mereka. Jadi tunggu apalagi ikuti “ Executive Learning Forum: Advance People Analytic” sekarang juga !    
+                                    </p>
+                                </div>
+                                <div class="pt-3 fbtt fade-up">
+                                    <div class="flex items-end">
+                                        <div class="text-2xl font-bold text-blue-700 mr-1">Rp 6,000,000</div>
+                                        <div class="text-base text-gray-600">/peserta</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="detail-course.html" class=" fbtt fade-up md:p-8 p-4 border block md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="lg:flex block justify-between items-center">
+                                    <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Budgeting [In-Class Training]</h3>
+                                    <div class="badge lg:mt-0 mt-2">
+                                        <div class="rounded-lg bg-blue-700 px-3 py-1 w-fit flex items-center  fbtt fade-up w-32">
+                                            <i class="material-icons text-white text-md mr-1">event</i>
+                                            <span class="text-md font-bold text-white">in 6 Days</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex pt-3 flex-wrap">
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">place</i>
+                                        <span class="ml-2 text-sm text-gray-600">Bogor</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600">In Class Training</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600">Supervisor</span>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm  fbtt fade-up">
+                                        Penyusunan anggaran dan perencanaan perusahaan secara keseluruhan merupakan suatu rangkaian yang terpadu dalam rangka mencapai sasaran perusahaan secara bersama. Penyusunan anggaran yang mengakomodasi sasaran dan strategi perusahaan dapat menjelaskan pentingnya komitmen para manajer dalam menyusun anggaran.    
+                                    </p>
+                                </div>
+                                <div class="pt-3 fbtt fade-up">
+                                    <div class="flex items-end">
+                                        <div class="text-2xl font-bold text-blue-700 mr-1">Rp 6,000,000</div>
+                                        <div class="text-base text-gray-600">/peserta</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="detail-course.html" class="md:p-8 p-4 border block fbtt fade-up md:rounded-2xl rounded-xl mb-6 hover:bg-gray-100 cursor-pointer ease-out duration-300">
+                                <div class="lg:flex block justify-between items-center">
+                                    <h3 class="md:text-xl text-lg leading-7 text-left text-gray-700 fbtt fade-up">Business Process Mapping [In-Class Training]</h3>
+                                    <div class="badge lg:mt-0 mt-2">
+                                        <div class="rounded-lg bg-blue-700 px-3 py-1 w-fit flex items-center fbtt fade-up  w-32">
+                                            <i class="material-icons text-white text-md mr-1">event</i>
+                                            <span class="text-md font-bold text-white">in 7 Days</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex pt-3 flex-wrap">
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">place</i>
+                                        <span class="ml-2 text-sm text-gray-600">Bogor</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600"> Operations & Project Management</span>
+                                    </div>
+                                    <div class="rounded-lg py-1 px-3 flex bg-gray-200 mr-2 mb-2 fbtt fade-up">
+                                        <i class="material-icons text-sm text-gray-600">groups</i>
+                                        <span class="ml-2 text-sm text-gray-600">Supervisor</span>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <p class="md:text-base md:leading-7 text-gray-600 leading-6 text-justify text-sm  fbtt fade-up">
+                                        Keberhasilan dalam menerapkan efektif dan efisiensi suatu bisnis harus dimulai dengan menganalisa seluruh proses bisnis, apakah satu sama lain sudah saling terintegrasi. Pemetaan proses bisnis penting dalam menganalisa proses bisnis, karena harus mengambil sudut pandang yang sama dalam menilai keberhasilan perusahaan. Dari hasil pemetaan tersebut, maka akan dapat terlihat berbagai peluang baru ataupun nilai tambah dalam menentukan strategi selanjutnya
+                                    </p>
+                                </div>
+                                <div class="pt-3 fbtt fade-up">
+                                    <div class="flex items-end">
+                                        <div class="text-2xl font-bold text-blue-700 mr-1">Rp 5,000,000</div>
+                                        <div class="text-base text-gray-600">/peserta</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="py-10 flex justify-center fbtt fade-up">
+                                <div class="pagination flex gap-2">
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center bg-blue-700 hover:bg-blue-800 text-white">
+                                        <i class="material-icons text-white">
+                                            chevron_left
+                                        </i>
+                                    </div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center bg-blue-700 hover:bg-blue-800 text-white">1</div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center hover:bg-gray-200 border">2</div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center hover:bg-gray-200 border">3</div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center hover:bg-gray-200 border">4</div>
+                                    <div class="item-paginatoin h-10 w-10 rounded-lg cursor-pointer font-semibold flex items-center justify-center bg-blue-700 hover:bg-blue-800 text-white">
+                                        <i class="material-icons text-white">
+                                            chevron_right
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-96 w-full lg:mt-0 mt-10 overflow-hidden">
+                            <div class="border w-100 p-4 rounded-2xl mb-5 fbtt fade-up">
+                                <h4 class="mb-2 text-lg text-gray-700 fbtt fade-up">Pencarian</h4>
+                                <input type="text" class="py-3 px-4 fbtt fade-up rounded-lg w-full border outline-0" placeholder="Cari disini...">
+                                <button class="bg-blue-700 hover:bg-blue-800 fbtt fade-up text-white font-semibold text-center w-full py-3 mt-2 rounded-lg">Cari</button>
+                            </div>
+                            <div class="border w-100 p-4 rounded-2xl mb-5 fbtt fade-up">
+                                <h4 class="mb-2 text-lg text-gray-700 fbtt fade-up">Item Per Page</h4>
+                                <select class="py-3 px-4 rounded-lg w-full border outline-0 cursor-pointer fbtt fade-up">
+                                    <option value="10" class="h-9">5 Per Page</option>
+                                    <option value="20" class="h-9">20 Per Page</option>
+                                    <option value="30" class="h-9">30 Per Page</option>
+                                    <option value="40" class="h-9">40 Per Page</option>
+                                    <option value="50" class="h-9">50 Per Page</option>
+                                </select>
+                            </div>
+                            <div class="border w-100 p-4 rounded-2xl mb-5 fbtt fade-up">
+                                <h4 class="mb-2 text-lg text-gray-700 fbtt fade-up">Sort By</h4>
+                                <select class="py-3 px-4 rounded-lg w-full border outline-0 cursor-pointer fbtt fade-up">
+                                    <option value="10" class="h-9">Lowest</option>
+                                    <option value="20" class="h-9">Highest</option>
+                                    <option value="40" class="h-9">Medium</option>
+                                </select>
+                            </div>
+                            <div class="border rounded-2xl mb-5 p-4 fbtt fade-up">
+                                <h4 class="mb-2 text-lg text-gray-700 fbtt fade-up">Lokasi</h4>
+                                <div class="pt-3">
+                                    <div class="item-lokasi pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="jee1" name="jee1" class="checked:bg-blue-500">
+                                        <label for="jee1" class="cursor-pointer">Jakarta</label>
+                                    </div>
+                                    <div class="item-lokasi pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="jee2" name="jee2" class="checked:bg-blue-500">
+                                        <label for="jee2" class="cursor-pointer">Bandung</label>
+                                    </div>
+                                    <div class="item-lokasi pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="jee3" name="jee3" class="checked:bg-blue-500">
+                                        <label for="jee3" class="cursor-pointer">Bogor</label>
+                                    </div>
+                                    <div class="item-lokasi pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="jee4" name="jee4" class="checked:bg-blue-500">
+                                        <label for="jee4" class="cursor-pointer">Depok</label>
+                                    </div>
+                                    <div class="item-lokasi pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="jee5" name="jee5" class="checked:bg-blue-500">
+                                        <label for="jee5" class="cursor-pointer">Bali</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border rounded-2xl mb-5 p-4 fbtt fade-up">
+                                <h4 class="mb-2 text-lg text-gray-700 fbtt fade-up">Jenis Kegiatan</h4>
+                                <div class="pt-3">
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox1" name="checkbox1" class="checked:bg-blue-500">
+                                        <label for="checkbox1" class="cursor-pointer">Blended Learning</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox2" name="checkbox2" class="checked:bg-blue-500">
+                                        <label for="checkbox2" class="cursor-pointer">In Class Training</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox3" name="checkbox3" class="checked:bg-blue-500">
+                                        <label for="checkbox3" class="cursor-pointer">Live Training Webinar</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox4" name="checkbox4" class="checked:bg-blue-500">
+                                        <label for="checkbox4" class="cursor-pointer">Risk & Corporate Finance</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox5" name="checkbox5" class="checked:bg-blue-500">
+                                        <label for="checkbox5" class="cursor-pointer">Offline Training</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox6" name="checkbox6" class="checked:bg-blue-500">
+                                        <label for="checkbox6" class="cursor-pointer">Live Virtual Training</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox7" name="checkbox7" class="checked:bg-blue-500">
+                                        <label for="checkbox7" class="cursor-pointer">Semua Kegiatan</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox8" name="checkbox8" class="checked:bg-blue-500">
+                                        <label for="checkbox8" class="cursor-pointer">Public Training</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox9" name="checkbox9" class="checked:bg-blue-500">
+                                        <label for="checkbox9" class="cursor-pointer">Sertifikat Nasional</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox10" name="checkbox10" class="checked:bg-blue-500">
+                                        <label for="checkbox10" class="cursor-pointer">Online Training</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox11" name="checkbox11" class="checked:bg-blue-500">
+                                        <label for="checkbox11" class="cursor-pointer">Webinar</label>
+                                    </div>
+                                    <div class="item-jenis-kegiatan pb-2 fbtt fade-up">
+                                        <input type="checkbox" id="checkbox12" name="checkbox12" class="checked:bg-blue-500">
+                                        <label for="checkbox12" class="cursor-pointer">Seminar</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pt-20 bg-blue-800 pb-10 lg:mt-0 mt-20">
+        <div class="container px-4 mx-auto">
+            <div class="gap-10 md:flex block pb-16">
+                <div class="flex-1 md:mb-0 mb-6">
+                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">About us</div>
+                    <p class="text-slate-300 font-normal text-sm leading-7 mt-4 fbtt fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vero veniam perspiciatis nam aut beatae rem voluptate dignissimos consequuntur ullam quas at minus, enim eligendi distinctio. Vel adipisci dolore tempora!</p>
+                </div>
+                <div class="flex-1 md:mb-0 mb-6">
+                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Navigation</div>
+                    <div class="menu-list flex-row flex gap-14">
+                        <div class="flex flex-col gap-2">
+                            <a href="index.html" class="text-slate-200 fbtt fade-up">Home</a>
+                            <a href="insight.html" class="text-slate-200 fbtt fade-up">Insight</a>
+                            <a href="info.html" class="text-slate-200 fbtt fade-up">Info</a>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <a href="schedule.html" class="text-slate-200 fbtt fade-up">Schedule</a>
+                            <a href="all-course.html" class="text-slate-200 fbtt fade-up">All Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1 md:mb-0 mb-6">
+                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Newsletter</div>
+                    <div class="mt-2">
+                        <input type="text" class="w-full h-12 rounded-lg bg-white px-5 py-3 fbtt fade-up" placeholder="type your email here">
+                        <button class="w-full px-8 py-3 bg-white font-semibold text-blue-800 rounded-xl mt-4 fbtt fade-up">Get Newsletter</button>
+                    </div>
+                </div>
+            </div>
+            <div class="my-10 bg-white" style="opacity: .2; height: 1px;"></div>
+            <div class="copyright text-white opacity-50">
+                <p class="text-center font-normal">@Copyright ProHRD All Right Reserved 2022</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js" integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
