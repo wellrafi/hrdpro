@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HRDPRO  - Solution Human Resources Problem</title>
+    <title>Login - Solution Human Resources Problem</title>
     <meta http-equiv="X-UA-Compatible" content="IE=7">
 
     <!-- favicons -->
@@ -26,7 +26,6 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- links css -->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -35,517 +34,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">    
 </head>
 <body>
-    <!-- header membungkus berisi nav dan banner -->
-    <header>
-        <!-- navigation bagian atas yang berisi menu -->
-        <nav class="py-7 absolute w-full">
-            <!-- membungkus logo dan navbar menua, dan set width element ke 1300px dengan padding 1rem kanan kiri -->
-            <div class="container mx-auto px-4">
-                <!-- flex, untuk membuat 2 kolom -->
-                <div class="flex">
-                    <!-- logo, element yang mempunyai logo  -->
-                    <div class="logo flex-none ">
-                        <a href="index.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
-                    </div>
-                    <!-- end logo -->
-                    <div class="nav-menu flex-1 justify-end flex items-center">
-                        <!-- hamburger menu, hanya akan muncul untuk mobile devices -->
-                        <div class="toggle-hamburger">
-                            <div class="hamburger"></div>
-                        </div>
-                        <!-- end hamburger menu -->
-                        <!-- navigation menu, list menu-->
-                        <div class="flex nav-responsive">
-                            <div class="nav-menu-item relative flex items-center text-blue-700">
-                                <a href="index.html" class="go-to-link text-white">Beranda</a>
-                            </div>
-                            <div class="nav-menu-item relative flex items-center">
-                                <span class=" text-white">Wawasan +</span>
-                                <div class="nav-menu-item-dropdown absolute rounded-lg length">
-                                    <a href="insight.html" class="go-to-link py-3">Artikel Manajemen</a>
-                                    <a href="insight.html" class="go-to-link">Tanya Konsultan</a>
-                                </div>
-                            </div>
-                            <div class="nav-menu-item relative flex items-center">
-                                <span class=" text-white">Info +</span>
-                                <div class="nav-menu-item-dropdown absolute">
-                                    <a href="info.html" class="go-to-link">E-Compro</a>
-                                    <a href="info.html" class="go-to-link">E-Catalog</a>
-                                    <a href="info.html" class="go-to-link">Download</a>
-                                    <a href="info.html" class="go-to-link">FAQ</a>
-                                    <a href="info.html" class="go-to-link">Privacy Policy</a>
-                                </div>
-                            </div>
-                            <div class="nav-menu-item relative flex items-center">
-                                <a href="about.html" class="go-to-link text-white">Tentang</a>
-                            </div>
-                            <div class="nav-menu-item relative flex items-center">
-                                <a href="schedule.html" class="go-to-link text-white">Jadwal</a>
-                            </div>
-                            <div class="nav-menu-item relative flex items-center">
-                                <a href="all-course.html" class="go-to-link different bg-blue-700 hover:bg-blue-800 mx-2">
-                                    <div class="flex align-items">
-                                        <i class="material-icons mr-2">import_contacts</i>
-                                        <span>Semua Kursus</span>
-                                    </div>
-                                </a>
-                                <a href="login.html" class="go-to-link different bg-blue-700 hover:bg-blue-800 mx-2">
-                                    <div class="flex align-items">
-                                        <i class="material-icons mr-2">login</i>
-                                        <span>Masuk</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- end navigation menu -->
-                        <!-- nav bg, background untuk mobile version -->
-                        <div class="nav-responsive-bg"></div>
-                        <!-- end nav bg -->
-                    </div>
-                </div>
-                <!-- end flex -->
-            </div>
-        </nav>
-        <!-- end navigation -->
-
-        <!-- banner -->
-        <section id="banner" style="background-image: url('https://ucarecdn.com/7c6df4c7-0d9c-4261-a8de-64da2d4fb7a7/banner.webp');">
-            <!-- flex, untuk membuat 2 kolom -->
-            <div class="container mx-auto h-full px-4">
-                <div class="max-w-4xl h-full">
-                    <!-- box title, di wrap dan flex untuk membuat kolom -->
-                    <div class="flex justify-center flex-col h-full">
-                        <h1 class="text-left w-fit xl:text-5xl lg:text-5xl md:text-4xl text-3xl font-bold mb-3 text-white fbtt fade-up">Solusi Human Resources Problem</h1>
-                        <p class="text-left w-fit text-base mt-2 mb-2 max-w-2xl leading-8 text-gray-300 fbtt fade-up">Desicate to Create an Achivement Atmosphere.</p>
-                        <a href="all-course.html" class="mt-4 fbtt fade-up flex w-fit items-center justify-center rounded-xl border border-transparent bg-blue-700 px-8 py-3 text-base font-medium text-white hover:bg-blue-800 md:py-4 md:px-10 md:text-lg">Get Started</a>
-                    </div>
-                    <!-- emd box title -->
-                </div>
-            </div>
-            <!-- end flex -->
-        </section>
-        <!-- end banner -->
-    </header>
-    <!-- end header -->
-    <!-- main section -->
     <main>
-        <!-- about section -->
-        <section id="about" class="py-32">
-            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
-            <div class="container px-4 mx-auto">
-                <!-- flex untuk membuat dua kolom -->
-                <div class="lg:flex block">
-                    <!-- image, gambar about section -->
-                    <div class="flex-1 fbtt fade-up">
-                        <img src="https://ucarecdn.com/c29c48b9-4927-459e-833f-deeba8dced2f/about.webp" class="rounded-xl w-full h-full object-cover" alt="">
-                    </div>
-                    <!-- end image -->
-                    <!-- text about section -->
-                    <div class="flex-1 items-strech flex flex-col justify-center fbtt fade-up">
-                        <div class="xl:pl-14 lg:pl-9 py-14">
-                            <div class="my-2 placeholder text-base font-bold text-blue-700 w-fit uppercase fbtt fade-up">Membantu membentuk organisasi yang baik</div>
-                            <div class="section-title py-2">
-                                <h2 class="text-left xl:text-4xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 fbtt fade-up">Ketahui sedikit tentang kami</h2>
-                            </div>
-                            <div class="section-text pt-2">
-                                <p class="text-gray-500 text-base leading-7 text-justify fbtt fade-up">
-                                    Banyak masalah yang terjadi dalam suatu perusahaan, saat ingin menjadikan perusahaan tersebut sebagai Leading Company atau bahkan mempertahankan performance perusahaan tersebut. Masalah yang paling mendominasi adalah masalah Attitude (Basic mentality) berikutnya masalah Knowledge dan Skill.
-                                    <br> Untuk itu antara Attitude, Knowledge dan Skill harus mendapat perhatian yang seimbang yaitu dengan melakukan upgrade terus menerus dan berkelanjutan (Continues Improvement).
-                                    <!-- <br>Hal itu menarik dan sangat menantang buat kami pendiri HRDPRO  untuk berkontribusi menjadi bagian dari solusi terhadap masalah – masalah perusahaan yang terkait dengan Attitude, Knowledge dan Skill. Dengan pandangan (visi) dan kesepakatan (komitmen pada visi dan misi) ini, kami mendirikan lembaga pengembangan kualitas sumber daya manusia dengan nama HAERDE PRO. -->
-                                </p>
-                                <div class="line sm:flex block mt-4 mb-2 text-base text-gray-500">
-                                    <span class="w-52 sm:auto block sm:font-normal font-semibold fbtt fade-up">Akte pendirian</span>
-                                    <span class="mr-1 sm:block hidden fbtt fade-up">:</span>
-                                    <span class="flex-1 fbtt fade-up">Perseroan Terbatas PT. HAERDE PRO No. <br>Tanggal : 09 / 24 Desember 2001 <br>Notaris : Aris Hilmi, SH.</span>
-                                </div>
-                                <div class="line sm:flex block mb-2 text-base text-gray-500">
-                                    <span class="w-52 sm:auto block sm:font-normal font-semibold fbtt fade-up">NPWP</span>
-                                    <span class="mr-1 sm:block hidden fbtt fade-up">:</span>
-                                    <span class="fbtt fade-up">02.391.742.0.617.000</span>
-                                </div>
-                                <div class="line sm:flex block mb-2 text-base text-gray-500">
-                                    <span class="w-52 sm:auto block sm:font-normal font-semibold fbtt fade-up">Pengesahan MENHUM</span>
-                                    <span class="mr-1 sm:block hidden fbtt fade-up">:</span>
-                                    <span class="fbtt fade-up">C-02609HT/404.5 1.18/2005</span>
-                                </div>
-                                <div class="line sm:flex block mb-2 text-base text-gray-500">
-                                    <span class="w-52 sm:auto block sm:font-normal font-semibold fbtt fade-up">SIUP</span>
-                                    <span class="mr-1 sm:block hidden fbtt fade-up">:</span>
-                                    <span class="fbtt fade-up">510/744-16/404 6.2/2012</span>
-                                </div>
-                                <div class="line sm:flex block mb-2 text-base text-gray-500">
-                                    <span class="w-52 sm:auto block sm:font-normal font-semibold fbtt fade-up">TDP</span>
-                                    <span class="mr-1 sm:block hidden fbtt fade-up">:</span>
-                                    <span class="fbtt fade-up">13.17.1.70.02357</span>
-                                </div>
-                                <div class="line sm:flex block mb-2 text-base text-gray-500">
-                                    <span class="w-52 sm:auto block sm:font-normal font-semibold fbtt fade-up">PKP</span>
-                                    <span class="mr-1 sm:block hidden fbtt fade-up">:</span>
-                                    <span class="fbtt fade-up">PEM-1701/WPJ.24/KP.0203/2012</span>
-                                </div>
-                                <div class="line sm:flex block mb-3 text-base text-gray-500">
-                                    <span class="w-52 sm:auto block sm:font-normal font-semibold fbtt fade-up">Rekening</span>
-                                    <span class="mr-1 sm:block hidden fbtt fade-up">:</span>
-                                    <span class="fbtt fade-up">BNI Cab. Sidoarjo</span>
-                                </div>
-                            </div>
+        <section>
+            <div class="flex flex-nowrap">
+                <div class="form-side flex-1 min-h-screen">
+                    <div class="m-auto w-3/4 py-20 sm:w-3/4 lg:w-2/4">
+                        <div class="login-logo">
+                            <a href="beranda.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
                         </div>
-                    </div>
-                    <!-- end text about -->
-                </div>
-                <!-- end flex -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end section -->
-        <!-- vision mission section -->
-        <section id="vision" class="pb-32">
-            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
-            <div class="container px-4 mx-auto">
-                <!-- flex untuk membuat dua kolom -->
-                <div class="lg:flex gap-5 block">
-                    <!-- vision, membungkus dan membuat dua kolom untuk image dan text visi -->
-                    <div class="sm:px-12 flex-1 sm:py-12 px-6 py-6 bg-blue-700 h-full rounded-xl fbtt fade-up lg:mb-0 mb-4">
-                        <div class="vision">
-                            <div class="sm:flex block pb-5 fbtt fade-up">
-                                <img src="./assets/icons/vision.svg" class="pr-4 h-14 fbtt fade-up" alt="">
-                                <div class="pt-2 pl-2">
-                                    <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-white fbtt fade-up">Visi</h2>
-                                    <p class="text-base pt-2 text-slate-300 font-normal leading-7 fbtt fade-up">Menjadi partner business terdekat dan terbaik yang terpercaya dalam pengembangan kualitas SDM</p>
-                                </div>
-                            </div>
+                        <div class="title-wrapper mb-10 mt-20">
+                            <span class="title block text-3xl font-bold">Masuk</span>
+                            <span class="sub-title block my-3">Masuk ke akun untuk menjelajahi fitur lain yang menarik</span>
                         </div>
-                    </div>
-                    <!-- end vision -->
-                    <!-- mission, membungkus dan membuat dua kolom untuk image dan text misi  -->
-                    <div class="sm:px-12 flex-1 sm:py-12 px-6 py-6 bg-blue-700 h-full rounded-xl fbtt fade-up lg:mb-0 mb-4">
-                        <div class="mission">
-                            <div class="sm:flex block pb-5 fbtt fade-up">
-                                <img src="./assets/icons/mission.svg" class="pr-4 h-14 fbtt fade-up" alt="">
-                                <div class="pt-2 pl-2">
-                                    <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-white fbtt fade-up">Misi</h2>
-                                    <p class="text-base pt-2 text-slate-300 font-normal leading-7 fbtt fade-up">Memberikan produk yang inovatif dan aplikatif dengan pelayanan melebihi harapan konsumen.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
-                    <!-- end mission -->
-                </div>
-            </div>
-        </section>
-        <!-- end vision missiono section -->
-        <!-- culture section -->
-        <section id="culture" class="mb-32">
-            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
-            <div class="container mx-auto px-4">
-                <div class="rounded-2xl sm:p-20 p-8 fbtt fade-up" style="background-image: url('https://ucarecdn.com/e674de80-4ae7-45c4-81dd-4e3612d7b055/culture.webp');">
-                    <div class="max-w-3xl mx-auto">
-                        <div class="section-title py-2">
-                            <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-white fbtt fade-up">Linkungan</h2>
-                        </div>
-                        <div class="section-text pt-2">
-                            <p class="text-xl leading-10 text-white fbtt fade-up">
-                                Membentuk perilaku positif pada seluruh komponen organisasi, mulai dari tingkat atas sampai terbawah dalam memberikan pelayanan kepada pelanggan.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end culture section -->
-        <!-- value section -->
-        <section id="value" class="mb-32 py-32 md:px-32 bg-blue-700 px-0">
-            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
-            <div class="container px-4 mx-auto">
-                <!-- rounded-lg, membungkus value text dan set border radius ke ukuran lg -->
-                <div class="rounded-lg">
-                    <div class="text-9xl text-center pb-0 mb-0 pt-16 text-white fbtt fade-up"></div>
-                    <h2 class="fbtt fade-up text-center text-white capitalize leading-loose font-normal w-fit mx-auto px-20 pb-16 italic xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
-                        NIQUE, DIFFERENT, CUSTOMIZED, SIMPLICITY <br>
-                        INTEGRITY, INOVATION, CONFIDENCE, SMART WORK
-                    </h2>
-                </div>
-                <!-- end rounded-lg -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end value section -->
-        <!-- jajaran & team section -->
-        <section id="" class="mb-32">
-            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
-            <div class="container px-4 mx-auto">
-                <!-- title section -->
-                <div class="section-title py-2">
-                    <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 fbtt fade-up text-center">Jajaran Direksi</h2>
-                </div>
-                <!-- end section -->
-                <!-- section content, dan set margin top 10 -->
-                <div class="section-content mt-10">
-                    <!-- set grid, untuk list para jajaran -->
-                    <div class="grid sm:grid-cols-2 grid-cols-1 gap-5">
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl" src="https://ucarecdn.com/4bad3589-9e1b-4b3a-8451-28503147ebdc/man1.png" alt="">
-                            <h4 class="text-2xl font-bold mt-4">Kusnan Budianto, SH.</h4>
-                            <div class="text-base font-normal text-gray-500">Direktur</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl" src="https://ucarecdn.com/b911adfc-478c-4532-929f-5210458f0ddc/man2.png" alt="">
-                            <h4 class="text-2xl font-bold mt-4">Didik Madani, S.Sos.</h4>
-                            <div class="text-base font-normal text-gray-500">Manager Operasional</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl" src="https://ucarecdn.com/5c0987ea-8ebf-4995-af02-0de4e1e90cec/woman1.png" alt="">
-                            <h4 class="text-2xl font-bold mt-4">Dra. Sofie Kusminarsih, MM</h4>
-                            <div class="text-base font-normal text-gray-500">Manager Keu./SDM</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl" src="https://ucarecdn.com/ce32b252-8430-4e32-952f-9e06d5a4d23f/man3.png" alt="">
-                            <h4 class="text-2xl font-bold mt-4">Ir. Endro Cahyono</h4>
-                            <div class="text-base font-normal text-gray-500">Manager Marketing</div>
-                        </div>
-                    </div>
-                    <!-- end grid -->
-                </div>
-                <!-- end section content -->
-                <!-- team title -->
-                <div class="section-title py-2 pt-32 fbtt fade-up">
-                    <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 text-center">Team</h2>
-                </div>
-                <!-- end team title -->
-                <!-- section content team -->
-                <div class="section-content mt-10">
-                    <!-- grid, set grid untuk list para team -->
-                    <div class="grid xl:lg:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
-                        <!-- item, team -->
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/1.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Kusnan Budianto, SH.</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <!-- end item -->
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/2.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Drs. Felix Takketuda</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/3.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Drs. Noer Hasdijanto, SH.</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/4.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">MBA Samsul Hidayat, SS.</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/5.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">MPSDM Drs. Edy Slamet Yan Subiyanto,</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/6.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">ST Didik Madani, S.Sos.</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/7.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">M.Med.Kom</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/8.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Prof. DR. Ir. Imam Robandi, MT</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/9.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Prof. DR. Teman Koesmono, MM</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/10.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Drs. Ireng Santoso</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/11.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Ir. Endro Cahyono</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/12.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Kapten (Purn) Dadiek Widadi</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/women/1.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Dra. Lisa Nathalia, MS., Ph.D</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                        <div class="direksi-item text-center fbtt fade-up">
-                            <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/women/2.jpg" alt="">
-                            <h3 class="text-xl font-bold mt-4">Dra. Sofie Kusminarsih, MM. CPHR</h3>
-                            <div class="text-base font-normal text-gray-500">Staff</div>
-                        </div>
-                    </div>
-                    <!-- end grid -->
-                </div>
-                <!-- end section content team -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end jajaran & team section -->
-
-        <!-- mitra section -->
-        <section id="mitra_klien" class="pb-32">
-            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
-            <div class="container px-4 mx-auto">
-                <!-- title mitra section -->
-                <div class="section-title mb-20">
-                    <h2 class="text-center xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 fbtt fade-up">Klien & Mitra </h2>
-                </div>
-                <!-- section content mitra -->
-                <div class="section-content">
-                    <!-- set grid, untuk list logo mitra -->
-                    <div class="grid xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 sm:gap-20 gap-16">
-                        <!-- logo, gambar mitra -->
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/1.png" alt=""></div>
-                        <!-- end logo -->
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/2.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/3.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/4.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/5.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/6.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/7.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/8.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/9.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/10.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/11.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/12.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/13.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/14.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/15.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/16.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/17.png" alt=""></div>
-                        <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/18.png" alt=""></div>
-                    </div>
-                    <!-- end grid -->
-                </div>
-                <!-- end section content mitra -->
-            </div>
-            <!-- end container -->
-        </section>
-        <!-- end mitra section -->
-
-        <!-- contact section -->
-        <section id="contact" class="pb-32">
-            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
-            <div class="container px-4 mx-auto">
-                <!-- flex, untuk membuatdua kolom untuk detail kontak dan form kontak -->
-                <div class="lg:flex block gap-10 items-center md:border rounded-2xl md:p-10">
-                    <!-- detail kontak -->
-                    <div class="detail-contact flex-1 xl:p-20 lg:p-6">
-                        <div class="section-title">
-                            <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 fbtt fade-up">Kontak Kami</h2>
-                        </div>
-                        <div class="section-text mt-10">
-                            <p class="max-w-xl text-base leading-8 text-gray-500 mb-4 fbtt fade-up">HRDPRO  kenali kami lebih jauh, jangan sungkan untuk berkunjung ke kantor kami atau mengirim pesan kamu selalu siap melayani</p>
-                            <div class="flex items-strech gap-3 mb-4">
-                                <i class="material-icons mt-1 text-blue-700 fbtt fade-up">place</i>
-                                <span class="max-w-sm text-gray-700 fbtt fade-up">Perum Citra Gargen Waterfront E7, Sidoarjo.</span>
-                            </div>
-                            <div class="flex items-center gap-3 mb-4 fbtt fade-up">
-                                <i class="material-icons text-blue-700">phone</i>
-                                <span class=" text-gray-700">0831 8051047</span>
-                            </div>
-                            <div class="flex items-center gap-3 mb-4 fbtt fade-up">
-                                <i class="material-icons text-blue-700">email</i>
-                                <span class=" text-gray-700">hello@HRDPRO.com</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end detail kontak -->
-                    <!-- form contact -->
-                    <div class="form lg:mt-0 mt-10 w-500 fbtt fade-up">
-                        <div class="border rounded-2xl  sm:p-10 p-5">
-                            <div class="mb-4">
-                                <label for="name" class="block mb-2 text-base text-gray-700">Nama Lengkap</label>
-                                <input type="text" id="name" class="h-12 px-4 py-4 w-full border border-gray-200 rounded-lg outline-none text-gray-500" placeholder="Ketik nama lengkap anda disini">
-                            </div>
-                            <div class="mb-4">
+                        <div class="form-wrapper">
+                            <div class="sm:basis-1/2 basis-full mb-4 sm:pr-2 pr-0">
                                 <label for="email" class="block mb-2 text-base text-gray-700">Email</label>
-                                <input type="text" id="email" class="h-12 px-4 py-4 w-full border border-gray-200 rounded-lg outline-none text-gray-500" placeholder="Ketik email anda disini">
+                                <input type="text" id="email" class="h-12 px-4 py-4 w-full border border-gray-200 rounded-lg outline-none text-gray-500" placeholder="Tuliskan email anda disini">
                             </div>
-                            <div class="mb-4">
-                                <label for="message" class="block mb-2 text-base text-gray-700">Pesan</label>
-                                <textarea type="text" id="message" class="h-32 px-4 py-4 w-full border border-gray-200 rounded-lg outline-none text-gray-500" placeholder="Ketik pesan anda disini"></textarea>
-                            </div>
-                            <div class="mb-4">
-                                <button class="w-full rounded-xl bg-blue-700 text-white p-5">Kirim Pesan Saya</button>
+                            <div class="sm:basis-1/2 basis-full mb-4 sm:pr-2 pr-0">
+                                <label for="password" class="block mb-2 text-base text-gray-700">Password</label>
+                                <input type="password" id="password" class="h-12 px-4 py-4 w-full border border-gray-200 rounded-lg outline-none text-gray-500" placeholder="Tuliskan password anda disini">
                             </div>
                         </div>
+                        <div class="flex justify-end">
+                            <a href="#" class="block mr-3 text-blue-600" target="_blank" rel="noopener noreferrer">Lupa Password?</a>
+                        </div>
+                        <a href="all-course.html" class="bg-blue-700 hover:bg-blue-800 block py-4 rounded-lg text-white font-bold text-center flex items-center gap-2 justify-center mt-10">
+                            <span>Masuk</span>
+                        </a>
+                        <span class="block my-5">Belum punya akun ? <a href="register.html" class="text-blue-600">Buat Akun</a></span>
                     </div>
-                    <!-- end form contact -->
                 </div>
-                <!-- end flex -->
+                <div class="image-side flex-1 min-h-screen hidden xl:block sm:hidden">
+                    <div class="w-full h-full" style="background-image: url('https://ucarecdn.com/7c6df4c7-0d9c-4261-a8de-64da2d4fb7a7/banner.webp');"></div>
+                </div>
             </div>
-            <!-- end container -->
         </section>
-        <!-- end contact section -->
-
     </main>
-    <!-- end main section -->
-    <!-- footer -->
-    <footer class="pt-20 bg-blue-800 pb-10 lg:mt-0 mt-20">
-        <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
-        <div class="container px-4 mx-auto">
-            <!-- flex membuat dua kolpm dan set gap ukuran 10 -->
-            <div class="gap-10 md:flex block pb-16 fbtt fade-up">
-                <!-- about footer -->
-                <div class="flex-1 md:mb-0 mb-6 fbtt fade-up">
-                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Tentang Kami</div>
-                    <p class="text-slate-300 font-normal text-sm leading-7 mt-4 fbtt fade-up">HRDPRO ikut serta dalam pembangunan masyarakat menuju Indonesia adil dan makmur melalui pengembangan manusia berdasarkan nilai-nilai ilmu pengetahuan dan sosial budaya yang dijiwai oleh Pancasila</p>
-                </div>
-                <!-- end about footer -->
-                <!-- footer nav -->
-                <div class="flex-1 md:mb-0 mb-6">
-                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Navigasi</div>
-                    <div class="menu-list flex-row flex gap-14">
-                        <div class="flex flex-col gap-2">
-                            <a href="index.html" class="text-slate-200 fbtt fade-up">Beranda</a>
-                            <a href="insight.html" class="text-slate-200 fbtt fade-up">Wawasan</a>
-                            <a href="info.html" class="text-slate-200 fbtt fade-up">Info</a>
-                        </div>
-                        <div class="flex flex-col gap-3">
-                            <a href="schedule.html" class="text-slate-200 fbtt fade-up">Jadwal</a>
-                            <a href="all-course.html" class="text-slate-200 fbtt fade-up">Semua Kursus</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- end footer nav -->
-                <!-- newsletter -->
-                <div class="flex-1 md:mb-0 mb-6">
-                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Buletin</div>
-                    <div class="mt-2 fbtt fade-up">
-                        <input type="text" class="w-full h-12 rounded-lg bg-white px-5 py-3 fbtt fade-up" placeholder="ketik emal anda disini">
-                        <button class="w-full px-8 py-3 bg-white font-semibold text-blue-800 rounded-xl mt-4 fbtt fade-up">Dapatkan Buletin</button>
-                    </div>
-                </div>
-                <!-- end newsletter -->
-            </div>
-            <!-- end flex -->
-            <!-- copyright -->
-            <div class="my-10 bg-white" style="opacity: .2; height: 1px;"></div>
-            <div class="copyright text-white opacity-50">
-                <p class="text-center font-normal">@Copyright HRDPRO  All Right Reserved 2022</p>
-            </div>
-            <!-- end copyright -->
-        </div>
-        <!-- end container -->
-    </footer>
-    <!-- end footer -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js" integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
