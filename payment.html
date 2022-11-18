@@ -35,17 +35,27 @@
 </head>
 <body>
 
+    <!-- header, membungkus logo dan navbar menu -->
     <header>
+        <!-- navigation membungkus list nav menu, dan di set absolute agar bisa ditaruh di atas elemen lain -->
         <nav class="sm:py-7 pb-5 pt-3 border-b">
+            <!-- container, elemen pembungkus untuk mendetifikasi maksimal width menjadi 1300px -->
             <div class="container mx-auto px-4">
+                <!-- flex, membuat dua kolom -->
                 <div class="flex lg:mt-0 mt-3">
+                    <!-- logo -->
                     <div class="logo flex-none ">
                         <a href="index.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
                     </div>
+                    <!-- end logo -->
+                    <!-- nav menu -->
                     <div class="nav-menu flex-1 justify-end flex items-center">
+                        <!-- toggle hamburger -->
                         <div class="toggle-hamburger">
                             <div class="hamburger bg-black"></div>
                         </div>
+                        <!-- end logo -->
+                        <!-- nav menu -->
                         <div class="flex nav-responsive">
                             <div class="nav-menu-item relative flex items-center">
                                 <a href="index.html" class="go-to-link">Beranda</a>
@@ -90,9 +100,13 @@
                         </div>
                         <div class="nav-responsive-bg"></div>
                     </div>
+                    <!-- end nav menu -->
                 </div>
+                <!-- end flex -->
             </div>
+            <!-- end container -->
         </nav>
+        <!-- end navigation -->
     </header>
     <main class="lg:py-16 py-6">
         <div class="container px-4 mx-auto">

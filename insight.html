@@ -34,13 +34,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">    
 </head>
 <body>
+    <!-- header, membungkus logo dan navbar menu -->
     <header>
+        <!-- navigation membungkus list nav menu, dan di set absolute agar bisa ditaruh di atas elemen lain -->
         <nav class="sm:py-7 pb-5 pt-3 absolute w-full">
+            <!-- container, elemen pembungkus untuk mendetifikasi maksimal width menjadi 1300px -->
             <div class="container mx-auto px-4">
+                <!-- flex, membuat dua kolom -->
                 <div class="flex lg:mt-0 mt-3">
+                    <!-- logo -->
                     <div class="logo flex-none ">
                         <a href="index.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
                     </div>
+                    <!-- end logo -->
+                    <!-- nav menu -->
                     <div class="nav-menu flex-1 justify-end flex items-center">
                         <div class="toggle-hamburger">
                             <div class="hamburger"></div>
@@ -89,10 +96,16 @@
                         </div>
                         <div class="nav-responsive-bg"></div>
                     </div>
+                    <!-- end nav menu -->
                 </div>
+                <!-- end flex -->
             </div>
+            <!-- end container -->
         </nav>
+        <!-- end navigation -->
+        <!-- banner, membungkus text dan gambar banner -->
         <section id="banner" class="banner-2nd" style="background-image: url('https://ucarecdn.com/9a0d2349-b7cb-4954-aa8f-e9344e48b63b/insightbanner.webp');">
+            <!-- container, elemen pembungkus untuk mendetifikasi maksimal width menjadi 1300px -->
             <div class="container mx-auto h-full px-4">
                 <div class="h-full">
                     <div class="flex justify-center items-strech flex-col h-full w-full">
@@ -101,7 +114,9 @@
                     </div>
                 </div>
             </div>
+            <!-- end container -->
         </section>
+        <!-- end banner -->
     </header>
     <main>
         <section class="sm:py-20 py-0">

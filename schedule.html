@@ -35,17 +35,27 @@
 </head>
 <body>
 
+    <!-- header, membungkus logo dan navbar menu -->
     <header>
+        <!-- navigation membungkus list nav menu, dan di set absolute agar bisa ditaruh di atas elemen lain -->
         <nav class="sm:py-7 pb-5 pt-3 absolute w-full">
+            <!-- container, elemen pembungkus untuk mendetifikasi maksimal width menjadi 1300px -->
             <div class="container mx-auto px-4">
+                <!-- flex, membuat dua kolom -->
                 <div class="flex lg:mt-0 mt-3">
+                    <!-- logo -->
                     <div class="logo flex-none ">
                         <a href="index.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
                     </div>
+                    <!-- end logo -->
+                    <!-- nav menu -->
                     <div class="nav-menu flex-1 justify-end flex items-center">
+                        <!-- toggle hamburger -->
                         <div class="toggle-hamburger">
                             <div class="hamburger"></div>
+                        <!-- end toggle hamburger -->
                         </div>
+                        <!-- nav menu membungkus list list menu -->
                         <div class="flex nav-responsive">
                             <div class="nav-menu-item relative flex items-center">
                                 <a href="index.html" class="text-white go-to-link">Beranda</a>
@@ -88,12 +98,21 @@
                                 </a>
                             </div>
                         </div>
+                        <!-- end nav menu -->
+                        <!-- bg nav mobile version -->
                         <div class="nav-responsive-bg"></div>
+                        <!-- end bg nav mobile version -->
                     </div>
+                    <!-- end nav menu -->
                 </div>
+                <!-- end flex -->
             </div>
+            <!-- end container -->
         </nav>
+        <!-- end navigation -->
+        <!-- banner, membungkus text dan gambar banner -->
         <section id="banner" class="banner-2nd" style="background-image: url('https://ucarecdn.com/8f400ae8-7b68-411e-8492-6a73a833b0af/bannerschedule.webp');">
+            <!-- container, elemen pembungkus untuk mendetifikasi maksimal width menjadi 1300px -->
             <div class="container mx-auto h-full px-4">
                 <div class="h-full">
                     <div class="flex justify-center items-center flex-col h-full">
@@ -101,7 +120,9 @@
                     </div>
                 </div>
             </div>
+            <!-- end container -->
         </section>
+        <!-- end banner -->
     </header>
     <main>
         <section class="sm:pt-20 pt-10 fbtt fade-up">
