@@ -26,6 +26,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- links css -->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -34,17 +35,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">    
 </head>
 <body>
+    <!-- header membungkus berisi nav dan banner -->
     <header>
+        <!-- navigation bagian atas yang berisi menu -->
         <nav class="py-7 absolute w-full">
+            <!-- membungkus logo dan navbar menua, dan set width element ke 1300px dengan padding 1rem kanan kiri -->
             <div class="container mx-auto px-4">
+                <!-- flex, untuk membuat 2 kolom -->
                 <div class="flex">
+                    <!-- logo, element yang mempunyai logo  -->
                     <div class="logo flex-none ">
                         <a href="index.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
                     </div>
+                    <!-- end logo -->
                     <div class="nav-menu flex-1 justify-end flex items-center">
+                        <!-- hamburger menu, hanya akan muncul untuk mobile devices -->
                         <div class="toggle-hamburger">
                             <div class="hamburger"></div>
                         </div>
+                        <!-- end hamburger menu -->
+                        <!-- navigation menu, list menu-->
                         <div class="flex nav-responsive">
                             <div class="nav-menu-item relative flex items-center text-blue-700">
                                 <a href="index.html" class="go-to-link text-white">Beranda</a>
@@ -73,38 +83,64 @@
                                 <a href="schedule.html" class="go-to-link text-white">Jadwal</a>
                             </div>
                             <div class="nav-menu-item relative flex items-center">
-                                <a href="all-course.html" class="go-to-link different bg-blue-700 hover:bg-blue-800">
+                                <a href="all-course.html" class="go-to-link different bg-blue-700 hover:bg-blue-800 mx-2">
                                     <div class="flex align-items">
                                         <i class="material-icons mr-2">import_contacts</i>
                                         <span>Semua Kursus</span>
                                     </div>
                                 </a>
+                                <a href="login.html" class="go-to-link different bg-blue-700 hover:bg-blue-800 mx-2">
+                                    <div class="flex align-items">
+                                        <i class="material-icons mr-2">login</i>
+                                        <span>Masuk</span>
+                                    </div>
+                                </a>
                             </div>
                         </div>
+                        <!-- end navigation menu -->
+                        <!-- nav bg, background untuk mobile version -->
                         <div class="nav-responsive-bg"></div>
+                        <!-- end nav bg -->
                     </div>
                 </div>
+                <!-- end flex -->
             </div>
         </nav>
+        <!-- end navigation -->
+
+        <!-- banner -->
         <section id="banner" style="background-image: url('https://ucarecdn.com/7c6df4c7-0d9c-4261-a8de-64da2d4fb7a7/banner.webp');">
+            <!-- flex, untuk membuat 2 kolom -->
             <div class="container mx-auto h-full px-4">
                 <div class="max-w-4xl h-full">
+                    <!-- box title, di wrap dan flex untuk membuat kolom -->
                     <div class="flex justify-center flex-col h-full">
                         <h1 class="text-left w-fit xl:text-5xl lg:text-5xl md:text-4xl text-3xl font-bold mb-3 text-white fbtt fade-up">Solusi Human Resources Problem</h1>
                         <p class="text-left w-fit text-base mt-2 mb-2 max-w-2xl leading-8 text-gray-300 fbtt fade-up">Desicate to Create an Achivement Atmosphere.</p>
                         <a href="all-course.html" class="mt-4 fbtt fade-up flex w-fit items-center justify-center rounded-xl border border-transparent bg-blue-700 px-8 py-3 text-base font-medium text-white hover:bg-blue-800 md:py-4 md:px-10 md:text-lg">Get Started</a>
                     </div>
+                    <!-- emd box title -->
                 </div>
             </div>
+            <!-- end flex -->
         </section>
+        <!-- end banner -->
     </header>
+    <!-- end header -->
+    <!-- main section -->
     <main>
+        <!-- about section -->
         <section id="about" class="py-32">
+            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
             <div class="container px-4 mx-auto">
+                <!-- flex untuk membuat dua kolom -->
                 <div class="lg:flex block">
+                    <!-- image, gambar about section -->
                     <div class="flex-1 fbtt fade-up">
                         <img src="https://ucarecdn.com/c29c48b9-4927-459e-833f-deeba8dced2f/about.webp" class="rounded-xl w-full h-full object-cover" alt="">
                     </div>
+                    <!-- end image -->
+                    <!-- text about section -->
                     <div class="flex-1 items-strech flex flex-col justify-center fbtt fade-up">
                         <div class="xl:pl-14 lg:pl-9 py-14">
                             <div class="my-2 placeholder text-base font-bold text-blue-700 w-fit uppercase fbtt fade-up">Membantu membentuk organisasi yang baik</div>
@@ -155,12 +191,20 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end text about -->
                 </div>
+                <!-- end flex -->
             </div>
+            <!-- end container -->
         </section>
+        <!-- end section -->
+        <!-- vision mission section -->
         <section id="vision" class="pb-32">
+            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
             <div class="container px-4 mx-auto">
+                <!-- flex untuk membuat dua kolom -->
                 <div class="lg:flex gap-5 block">
+                    <!-- vision, membungkus dan membuat dua kolom untuk image dan text visi -->
                     <div class="sm:px-12 flex-1 sm:py-12 px-6 py-6 bg-blue-700 h-full rounded-xl fbtt fade-up lg:mb-0 mb-4">
                         <div class="vision">
                             <div class="sm:flex block pb-5 fbtt fade-up">
@@ -172,6 +216,8 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end vision -->
+                    <!-- mission, membungkus dan membuat dua kolom untuk image dan text misi  -->
                     <div class="sm:px-12 flex-1 sm:py-12 px-6 py-6 bg-blue-700 h-full rounded-xl fbtt fade-up lg:mb-0 mb-4">
                         <div class="mission">
                             <div class="sm:flex block pb-5 fbtt fade-up">
@@ -182,11 +228,15 @@
                                 </div>
                             </div>
                         </div>
-                    </div>    
+                    </div>  
+                    <!-- end mission -->
                 </div>
             </div>
         </section>
+        <!-- end vision missiono section -->
+        <!-- culture section -->
         <section id="culture" class="mb-32">
+            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
             <div class="container mx-auto px-4">
                 <div class="rounded-2xl sm:p-20 p-8 fbtt fade-up" style="background-image: url('https://ucarecdn.com/e674de80-4ae7-45c4-81dd-4e3612d7b055/culture.webp');">
                     <div class="max-w-3xl mx-auto">
@@ -201,9 +251,14 @@
                     </div>
                 </div>
             </div>
+            <!-- end container -->
         </section>
+        <!-- end culture section -->
+        <!-- value section -->
         <section id="value" class="mb-32 py-32 md:px-32 bg-blue-700 px-0">
+            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
             <div class="container px-4 mx-auto">
+                <!-- rounded-lg, membungkus value text dan set border radius ke ukuran lg -->
                 <div class="rounded-lg">
                     <div class="text-9xl text-center pb-0 mb-0 pt-16 text-white fbtt fade-up"></div>
                     <h2 class="fbtt fade-up text-center text-white capitalize leading-loose font-normal w-fit mx-auto px-20 pb-16 italic xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl">
@@ -211,14 +266,23 @@
                         INTEGRITY, INOVATION, CONFIDENCE, SMART WORK
                     </h2>
                 </div>
+                <!-- end rounded-lg -->
             </div>
+            <!-- end container -->
         </section>
+        <!-- end value section -->
+        <!-- jajaran & team section -->
         <section id="" class="mb-32">
+            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
             <div class="container px-4 mx-auto">
+                <!-- title section -->
                 <div class="section-title py-2">
                     <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 fbtt fade-up text-center">Jajaran Direksi</h2>
                 </div>
+                <!-- end section -->
+                <!-- section content, dan set margin top 10 -->
                 <div class="section-content mt-10">
+                    <!-- set grid, untuk list para jajaran -->
                     <div class="grid sm:grid-cols-2 grid-cols-1 gap-5">
                         <div class="direksi-item text-center fbtt fade-up">
                             <img class="rounded-xl" src="https://ucarecdn.com/4bad3589-9e1b-4b3a-8451-28503147ebdc/man1.png" alt="">
@@ -241,11 +305,17 @@
                             <div class="text-base font-normal text-gray-500">Manager Marketing</div>
                         </div>
                     </div>
+                    <!-- end grid -->
                 </div>
+                <!-- end section content -->
+                <!-- team title -->
                 <div class="section-title py-2 pt-32 fbtt fade-up">
                     <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 text-center">Team</h2>
                 </div>
+                <!-- end team title -->
+                <!-- section content team -->
                 <div class="section-content mt-10">
+                    <!-- grid, set grid untuk list para team -->
                     <div class="grid xl:lg:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5">
                         <div class="direksi-item text-center fbtt fade-up">
                             <img class="rounded-xl w-full w-height object-cover" src="https://randomuser.me/api/portraits/men/1.jpg" alt="">
@@ -318,16 +388,25 @@
                             <div class="text-base font-normal text-gray-500">Staff</div>
                         </div>
                     </div>
+                    <!-- end grid -->
                 </div>
+                <!-- end section content team -->
             </div>
+            <!-- end container -->
         </section>
+        <!-- end jajaran & team section -->
 
+        <!-- mitra section -->
         <section id="mitra_klien" class="pb-32">
+            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
             <div class="container px-4 mx-auto">
+                <!-- title mitra section -->
                 <div class="section-title mb-20">
                     <h2 class="text-center xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 fbtt fade-up">Klien & Mitra </h2>
                 </div>
+                <!-- section content mitra -->
                 <div class="section-content">
+                    <!-- set grid, untuk list logo mitra -->
                     <div class="grid xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 sm:gap-20 gap-16">
                         <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/1.png" alt=""></div>
                         <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/2.png" alt=""></div>
@@ -348,12 +427,21 @@
                         <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/17.png" alt=""></div>
                         <div class="flex items-center justify-center  fbtt fade-up"><img src="./assets/logo/18.png" alt=""></div>
                     </div>
+                    <!-- end grid -->
                 </div>
+                <!-- end section content mitra -->
             </div>
+            <!-- end container -->
         </section>
+        <!-- end mitra section -->
+
+        <!-- contact section -->
         <section id="contact" class="pb-32">
+            <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
             <div class="container px-4 mx-auto">
+                <!-- flex, untuk membuatdua kolom untuk detail kontak dan form kontak -->
                 <div class="lg:flex block gap-10 items-center md:border rounded-2xl md:p-10">
+                    <!-- detail kontak -->
                     <div class="detail-contact flex-1 xl:p-20 lg:p-6">
                         <div class="section-title">
                             <h2 class="text-left xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 fbtt fade-up">Kontak Kami</h2>
@@ -374,6 +462,8 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end detail kontak -->
+                    <!-- form contact -->
                     <div class="form lg:mt-0 mt-10 w-500 fbtt fade-up">
                         <div class="border rounded-2xl  sm:p-10 p-5">
                             <div class="mb-4">
@@ -393,17 +483,29 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end form contact -->
                 </div>
+                <!-- end flex -->
             </div>
+            <!-- end container -->
         </section>
+        <!-- end contact section -->
+
     </main>
+    <!-- end main section -->
+    <!-- footer -->
     <footer class="pt-20 bg-blue-800 pb-10 lg:mt-0 mt-20">
+        <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
         <div class="container px-4 mx-auto">
+            <!-- flex membuat dua kolpm dan set gap ukuran 10 -->
             <div class="gap-10 md:flex block pb-16 fbtt fade-up">
+                <!-- about footer -->
                 <div class="flex-1 md:mb-0 mb-6 fbtt fade-up">
                     <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Tentang Kami</div>
                     <p class="text-slate-300 font-normal text-sm leading-7 mt-4 fbtt fade-up">HRDPRO ikut serta dalam pembangunan masyarakat menuju Indonesia adil dan makmur melalui pengembangan manusia berdasarkan nilai-nilai ilmu pengetahuan dan sosial budaya yang dijiwai oleh Pancasila</p>
                 </div>
+                <!-- end about footer -->
+                <!-- footer nav -->
                 <div class="flex-1 md:mb-0 mb-6">
                     <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Navigasi</div>
                     <div class="menu-list flex-row flex gap-14">
@@ -418,6 +520,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- end footer nav -->
+                <!-- newsletter -->
                 <div class="flex-1 md:mb-0 mb-6">
                     <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Buletin</div>
                     <div class="mt-2 fbtt fade-up">
@@ -425,13 +529,19 @@
                         <button class="w-full px-8 py-3 bg-white font-semibold text-blue-800 rounded-xl mt-4 fbtt fade-up">Dapatkan Buletin</button>
                     </div>
                 </div>
+                <!-- end newsletter -->
             </div>
+            <!-- end flex -->
+            <!-- copyright -->
             <div class="my-10 bg-white" style="opacity: .2; height: 1px;"></div>
             <div class="copyright text-white opacity-50">
                 <p class="text-center font-normal">@Copyright HRDPRO  All Right Reserved 2022</p>
             </div>
+            <!-- end copyright -->
         </div>
+        <!-- end container -->
     </footer>
+    <!-- end footer -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js" integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

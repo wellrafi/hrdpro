@@ -105,6 +105,13 @@ nav{
     width: 35px;
 }
 
+.image-side > div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;  
+}
+
+
 #banner{
     width: 100%;
     min-height: 760px;
@@ -318,4 +325,7 @@ footer .container{
         font-size: 18px;
         margin: 0;
     }
+}
+.login-logo {
+    width: 100px;
 }
