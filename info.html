@@ -35,17 +35,27 @@
 </head>
 <body>
 
+    <!-- header, membungkus logo dan navbar menu -->
     <header>
+        <!-- navigation membungkus list nav menu, dan di set absolute agar bisa ditaruh di atas elemen lain -->
         <nav class="sm:py-7 pb-5 pt-3 absolute w-full">
+            <!-- container, elemen pembungkus untuk mendetifikasi maksimal width menjadi 1300px -->
             <div class="container mx-auto px-4">
+                <!-- flex, membuat dua kolom -->
                 <div class="flex lg:mt-0 mt-3">
+                    <!-- logo -->
                     <div class="logo flex-none ">
                         <a href="index.html" class="go-to-link"><img src="./assets/logo.png" height="80" alt=""></a>
                     </div>
+                    <!-- end logo -->
+                    <!-- nav menu -->
                     <div class="nav-menu flex-1 justify-end flex items-center">
+                        <!-- toggle hamburger -->
                         <div class="toggle-hamburger">
                             <div class="hamburger"></div>
                         </div>
+                        <!-- end toggle hamburger -->
+                        <!-- nav menu membungkus list list menu -->
                         <div class="flex nav-responsive">
                             <div class="nav-menu-item relative flex items-center">
                                 <a href="index.html" class="text-white go-to-link">Beranda</a>
@@ -88,12 +98,21 @@
                                 </a>
                             </div>
                         </div>
+                        <!-- end nav menu -->
+                        <!-- bg nav mobile version -->
                         <div class="nav-responsive-bg"></div>
+                        <!-- end bg nav mobile version -->
                     </div>
+                    <!-- end nav menu -->
                 </div>
+                <!-- end flex -->
             </div>
+            <!-- end container -->
         </nav>
+        <!-- end navigation -->
+        <!-- banner, membungkus text dan gambar banner -->
         <section id="banner" class="banner-2nd" style="background-image: url('https://ucarecdn.com/c6ef73bc-6771-4799-be1d-fff01ac9badd/infobanner.webp');">
+            <!-- container, elemen pembungkus untuk mendetifikasi maksimal width menjadi 1300px -->
             <div class="container mx-auto h-full px-4">
                 <div class="h-full">
                     <div class="flex justify-center items-center flex-col h-full w-full">
@@ -102,11 +121,18 @@
                 </div>
             </div>
         </section>
+        <!-- end banner -->
     </header>
+    <!-- end header -->
+    <!-- main, elemen membungkus semua konten selain banner -->
     <main>
+        <!-- sertifikat elemen membungkus list sertifikat dll -->
         <section class="py-20">
+            <!-- container, elemen pembungkus untuk mendetifikasi maksimal width menjadi 1300px -->
             <div class="container mx-auto px-4">
+                <!-- grid, set grid untuk position list sertifikat-->
                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-4">
+                    <!-- sertifikat item, membungkus gambar sertifikat dan text sertifikat -->
                     <div class="border overflow-hidden fbtt fade-up rounded-xl sm:flex block">
                         <div class="sm:h-full h-48 sm:w-48 w-full">
                             <img src="https://ucarecdn.com/3fa1bd25-2555-41f0-aad5-3aee1bcc8935/sertifikat.jpg" class="object-cover sm:w-auto w-full h-32 min-h-full" alt="">
@@ -119,6 +145,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end sertifikat item -->
                     <div class="border overflow-hidden fbtt fade-up rounded-xl sm:flex block">
                         <div class="sm:h-full h-48 sm:w-48 w-full">
                             <img src="https://ucarecdn.com/0d54b31d-278b-4fd9-9472-48b9d1112a7b/sertifikat2.jpg" class="object-cover sm:w-auto w-full h-32 min-h-full" alt="">
@@ -156,34 +183,56 @@
                         </div>
                     </div>
                 </div>
+                <!-- end grid -->
             </div>
+            <!-- end container -->
         </section>
+        <!-- end sertifikat -->
+        <!--  e-compro section -->
         <section class="md:py-32 md:pb-0 py-0 pb-20">
             <div class="container px-4 mx-auto">
+                <!-- title e compro -->
                 <div class="md:flex block gap-5 items-strech justify-center mb-10">
                     <h2 class="text-left xl:text-4xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 md:pb-6 pb-3 fbtt fade-up">E-Compro</h2>
                 </div>
+                <!-- end title -->
+                <!-- e-compro frame, pdf flipbook -->
                 <iframe allowfullscreen="" scrolling="no" class="fp-iframe fbtt fade-up" style="border: 1px solid lightgray; width: 100%; height: 700px;" src="https://heyzine.com/flip-book/219c12f49e.html"></iframe>
+                <!-- end frame -->
             </div>
         </section>
+        <!-- end e-compro section -->
+        <!-- e-catalog -->
         <section class="md:py-32 py-0 pb-20">
             <div class="container px-4 mx-auto">
+                <!-- title e compro -->
                 <div class="md:flex block gap-5 items-strech justify-center mb-10">
                     <h2 class="text-left xl:text-4xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl font-bold text-gray-700 md:pb-6 pb-3 fbtt fade-up">E-Catalog</h2>
                 </div>
+                <!-- end title -->
+                <!-- e-compro frame, pdf flipbook -->
                 <iframe allowfullscreen="" scrolling="no" class="fp-iframe fbtt fade-up" style="border: 1px solid lightgray; width: 100%; height: 700px;" src="https://heyzine.com/flip-book/e55992ec8f.html"></iframe>
+                <!-- end frame -->
             </div>
         </section>
+        <!-- end e-catalog -->
     </main>
+    <!-- end main -->
+    <!-- footer -->
     <footer class="pt-20 bg-blue-800 pb-10 lg:mt-0 mt-20">
+        <!-- container, membungkus set width element ke 1300px dengan padding 1rem kanan kiri -->
         <div class="container px-4 mx-auto">
-            <div class="gap-10 md:flex block pb-16">
-                <div class="flex-1 md:mb-0 mb-6">
+            <!-- flex membuat dua kolpm dan set gap ukuran 10 -->
+            <div class="gap-10 md:flex block pb-16 fbtt fade-up">
+                <!-- about footer -->
+                <div class="flex-1 md:mb-0 mb-6 fbtt fade-up">
                     <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Tentang Kami</div>
                     <p class="text-slate-300 font-normal text-sm leading-7 mt-4 fbtt fade-up">HRDPRO ikut serta dalam pembangunan masyarakat menuju Indonesia adil dan makmur melalui pengembangan manusia berdasarkan nilai-nilai ilmu pengetahuan dan sosial budaya yang dijiwai oleh Pancasila</p>
                 </div>
+                <!-- end about footer -->
+                <!-- footer nav -->
                 <div class="flex-1 md:mb-0 mb-6">
-                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Navigation</div>
+                    <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Navigasi</div>
                     <div class="menu-list flex-row flex gap-14">
                         <div class="flex flex-col gap-2">
                             <a href="index.html" class="text-slate-200 fbtt fade-up">Beranda</a>
@@ -196,20 +245,28 @@
                         </div>
                     </div>
                 </div>
+                <!-- end footer nav -->
+                <!-- newsletter -->
                 <div class="flex-1 md:mb-0 mb-6">
                     <div class="text-slate-100 font-bold mb-5 text-xl fbtt fade-up">Buletin</div>
-                    <div class="mt-2">
-                        <input type="text" class="w-full h-12 fbtt fade-up rounded-lg bg-white px-5 py-3" placeholder="Ketik email anda disini">
-                        <button class="w-full px-8 py-3 bg-white fbtt fade-up font-semibold text-blue-800 rounded-xl mt-4">Dapatkan Buletin</button>
+                    <div class="mt-2 fbtt fade-up">
+                        <input type="text" class="w-full h-12 rounded-lg bg-white px-5 py-3 fbtt fade-up" placeholder="ketik emal anda disini">
+                        <button class="w-full px-8 py-3 bg-white font-semibold text-blue-800 rounded-xl mt-4 fbtt fade-up">Dapatkan Buletin</button>
                     </div>
                 </div>
+                <!-- end newsletter -->
             </div>
+            <!-- end flex -->
+            <!-- copyright -->
             <div class="my-10 bg-white" style="opacity: .2; height: 1px;"></div>
             <div class="copyright text-white opacity-50">
                 <p class="text-center font-normal">@Copyright HRDPRO  All Right Reserved 2022</p>
             </div>
+            <!-- end copyright -->
         </div>
+        <!-- end container -->
     </footer>
+    <!-- end footer -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js" integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
